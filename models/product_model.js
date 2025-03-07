@@ -1,5 +1,5 @@
 // const mongoose = require('mongoose');
-import mongoose, { model } from 'mongoose';
+import mongoose, { Schema, model } from 'mongoose';
 
 const ProductSchema = new mongoose.Schema({
     name: { type: String, required: true },
